@@ -1,0 +1,245 @@
+Non-Fungible Titles (NFT) Standards Document
+
+DRAFT -
+Version: 0.1
+ Date: January 5, 2025
+ Prepared by: Nathan Wosnack, Eugene Buchanan, MJ Phillips
+
+1. Introduction
+NFTitles represent a digital, immutable, and decentralized framework for property title records, leveraging blockchain technology for security, transparency, and efficiency. This document outlines the standards and best practices for creating, managing, and interacting with NFTitles.
+
+2. Purpose
+The purpose of this document is to establish a standardized framework for:
+Defining NFTitles and their metadata.
+Ensuring interoperability across blockchain networks.
+Maintaining legal compliance and data security.
+Encouraging trust and adoption among stakeholders.
+
+3. Terminology
+NFT (Non-Fungible Token): A unique digital asset stored on a blockchain.
+NFTitles: Non-fungible tokens specifically designed to represent property title records.
+Smart Contract: A self-executing contract with the terms directly written into code.
+Owner: The legal entity or individual holding the NFTitle.
+Verifier: A trusted entity responsible for validating title authenticity and data integrity.
+
+4. Technical Standards
+4.1 Blockchain Protocol
+NFTitles must be deployed on a blockchain that supports:
+Smart Contracts: E.g., Ethereum, Polygon, or similar.
+Security Features: Consensus mechanisms like Proof of Stake (PoS).
+Scalability: Ability to handle high transaction volumes.
+4.2 Token Standards
+NFTitles should comply with the ERC-721 or ERC-1155 token standards to ensure interoperability and compatibility.
+4.3 Metadata Structure
+NFTitle metadata must include the following:
+Property Details: Address, legal description, and dimensions.
+Owner Information: Name, wallet address, and legal identification.
+Transaction History: Timestamped records of transfers and updates.
+Verification Data: Links to notarized documents, survey results, and zoning information.
+4.4 Smart Contract Requirements
+Must include functionality for:
+Ownership Transfer: Secure and verifiable title transfers.
+Data Updates: Recording changes in property status or ownership.
+Revocation Mechanism: Ability to revoke titles in cases of fraud or dispute resolution.
+
+5. Operational Standards
+5.1 Title Verification
+Verification entities must validate title authenticity using a combination of:
+Blockchain transaction records.
+Off-chain legal and historical data.
+5.2 Compliance
+NFTitles must adhere to the jurisdictional laws of the property’s location, including:
+Real estate regulations.
+Privacy and data protection laws.
+Tax reporting requirements.
+5.3 Security Protocols
+Employ multi-signature wallets for sensitive transactions.
+Use encrypted storage for off-chain data linked to the NFTitle.
+5.4 Interoperability
+Support cross-chain integrations to enhance accessibility and reduce platform dependency.
+
+6. Governance
+NFTitles should operate under a decentralized governance structure such as nDAO.
+ Responsibilities include:
+Approving updates to NFTitles standards.
+Mediating disputes between parties.
+Voting on enhancements to NFTitles smart contracts and platform features.
+
+7. Adoption Roadmap
+Phase 1: Implementation
+Develop a prototype NFTitle system on a selected blockchain.
+Pilot program with early adopters.
+Phase 2: Compliance & Standardization
+Partner with legal experts to ensure regulatory compliance.
+Publish technical documentation for developers.
+Phase 3: Scaling & Interoperability
+Expand to multiple blockchain ecosystems.
+Onboard government agencies and real estate firms.
+
+8. Conclusion
+This standards document aims to ensure that NFTitles provide a secure, transparent, and universally accepted system for property title management. Updates to this document will be governed by nDAO and aligned with emerging technologies and legal developments.
+
+Here's the structured Metadata Standard for NFTitles in a more readable format:
+
+Metadata Standard for NFTitles
+1. Property Information
+Field
+Description
+Property Identifier
+A unique identifier for the property.
+Property Address
+The physical address of the property.
+Legal Description
+The legal description of the property.
+Owner Information
+Name and address of the property owner.
+Boundary Coordinates
+Coordinates of the property boundary (GeoJSON).
+Easements
+Description of easements on the property.
+Encroachments
+Description of encroachments on the property.
+Water Rights
+Description of water features and rights.
+Mineral Rights
+Description of minerals and rights.
+Zoning Classification
+Zoning classification of the property.
+Flood Zone Classification
+Flood zone classification of the property.
+Gross Land Area
+Total land area of the property.
+
+
+2. Survey Information
+Field
+Description
+Surveyor
+Name, address, contact info, license number.
+Survey Date
+Date and time of the survey.
+
+
+3. Utilities Information
+Field
+Description
+Utility Type
+Electric, gas, sewer, other.
+Provider
+Contact information for the utility provider.
+Rates
+Associated rates for the utilities.
+
+
+4. Property Improvements
+Field
+Description
+Improvement Type
+Type of improvement (e.g., garage, pool).
+Year Built
+Year the improvement was constructed.
+Condition
+Condition of the improvement (e.g., good, poor).
+Estimated Value
+Value of the improvement.
+
+
+5. Inspection Report
+Field
+Description
+Inspection Date
+Date of the inspection.
+Inspector Details
+Name, contact info, license number.
+Components Assessed
+Includes foundation, exterior, roof, plumbing, electrical, heating, air conditioning, interior, insulation, ventilation, and appliances.
+
+
+6. HOA Information
+Field
+Description
+HOA Name
+Name of the Homeowners Association.
+HOA Contact
+HOA contact information.
+Governing Documents
+Links to HOA's bylaws and CC&Rs.
+Fee Schedule
+Monthly/annual fees.
+Amenities
+Amenities provided by the HOA.
+
+
+7. Leasing Terms
+Field
+Description
+Lease Term
+Term of the lease.
+Unit Number
+Details of the leased unit.
+Lease Rate
+Rate of the lease.
+Security Deposit
+Amount of the deposit.
+
+
+8. Parking Details
+Field
+Description
+Number of Spaces
+Number of parking spaces available.
+Type of Parking
+On-site, off-site, valet.
+Parking Availability
+Free or paid.
+Parking Restrictions
+Times, permits, or limitations.
+
+
+9. Insurance Details
+Field
+Description
+Requirements
+Coverage amounts and types (flood, fire, etc.).
+Costs
+Cost of the coverage.
+Existing Carrier
+Carrier name and policy details.
+Policy Terms
+Terms and considerations.
+
+
+10. NFT Metadata
+Field
+Description
+NFT Address
+Blockchain address of the NFT.
+Blockchain Identifier
+Identifier for the blockchain.
+Metadata Hash
+Cryptographic hash of the metadata.
+Metadata Signature
+Digital signature for authenticity.
+Metadata Timestamp
+Last updated timestamp.
+
+
+11. IPFS Details
+Field
+Description
+IPFS CID
+Content identifier on IPFS.
+IPFS Gateway URL
+Gateway link to access IPFS data.
+IPFS Merkle Root
+Merkle root for data integrity.
+File Size
+Size of the data in bytes.
+Upload Date
+Date of data upload.
+Uploader Info
+Name and contact of the uploader.
+
+
+
+
